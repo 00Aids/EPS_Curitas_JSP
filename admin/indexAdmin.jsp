@@ -46,7 +46,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Crear CRUD Medicos</h5>
                     <p class="card-text">Gestiona el CRUD para los medicos del sistema.</p>
-                    <a href="crudMedicos.jsp" class="btn btn-primary">Acceder</a>
+                    <a href="Medicos/crudMedicos.jsp" class="btn btn-primary">Acceder</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Crear Clientes</h5>
                     <p class="card-text">Registra y gestiona clientes en el sistema.</p>
-                    <a href="crearClientes.jsp" class="btn btn-primary">Acceder</a>
+                    <a href="Clientes/crearClientes.jsp" class="btn btn-primary">Acceder</a>
                 </div>
             </div>
         </div>

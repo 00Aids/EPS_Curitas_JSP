@@ -75,7 +75,7 @@
                     Solicitar Cita Médica
                 </div>
                 <div class="card-body">
-                    <form action="solicitarCita.jsp" method="post" class="needs-validation" novalidate>
+                    <form action="citasMedicas/solicitarCita.jsp" method="post" class="needs-validation" novalidate>
                         <button type="submit" class="btn btn-primary">Solicitar Cita</button>
                     </form>
                 </div>
@@ -89,7 +89,7 @@
                     Solicitar Exámenes de Laboratorio
                 </div>
                 <div class="card-body">
-                    <form action="solicitarLaboratorio.jsp" method="post" class="needs-validation" novalidate>
+                    <form action="Examen/solicitarLaboratorio.jsp" method="post" class="needs-validation" novalidate>
                         <div class="form-group">
                             <label for="tipo_examen">Tipo de Examen:</label>
                             <input type="text" class="form-control" id="tipo_examen" name="tipo_examen" required>
@@ -115,7 +115,7 @@
                     Actualizar Datos Personales
                 </div>
                 <div class="card-body">
-                    <form action="actualizarPerfil.jsp" method="post" class="needs-validation" novalidate>
+                    <form action="DatosPersonales/actualizarPerfil.jsp" method="post" class="needs-validation" novalidate>
                         <div class="form-group">
                             <label for="campo_id">(Inmodificable) Cédula:</label>
                             <input type="text" class="form-control" id="campo_id" name="cedula" placeholder="Cédula" value="<%= session.getAttribute("cedula") %>" readonly required>
@@ -153,12 +153,15 @@
     <!-- Botones de navegación -->
     <div class="row mb-4">
         <div class="col-md-4">
-            <a href="verCitas.jsp" class="btn btn-secondary">Ver Citas</a>
+            <a href="citasMedicas/verCitas.jsp" class="btn btn-secondary">Ver Citas</a>
         </div>
         <div class="col-md-4">
-            <a href="verExamenes.jsp" class="btn btn-secondary">Ver Exámenes</a>
+            <a href="Examen/verExamenes.jsp" class="btn btn-secondary">Ver Exámenes</a>
         </div>
         <div class="col-md-4">
+            <a href="DatosPersonales/datosPersonales.jsp" class="btn btn-secondary">Ver datos Personales</a>
+        </div>
+        <div class="col-md-4"></div>
             <a href="../index.jsp" class="btn btn-secondary">Inicio</a>
         </div>
     </div>

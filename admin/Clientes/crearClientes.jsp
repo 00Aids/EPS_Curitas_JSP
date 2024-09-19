@@ -138,7 +138,7 @@
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
             <div class="mt-3">
-                <a href="indexAdmin.jsp" class="btn btn-secondary">Login</a>
+                <a href="../indexAdmin.jsp" class="btn btn-secondary">Login</a>
             </div>
         </div>
     </div>

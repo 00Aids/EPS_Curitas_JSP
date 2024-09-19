@@ -135,7 +135,7 @@
 
                 <button type="submit" class="btn btn-primary mb-4">Solicitar Cita</button>
                 <br>
-                <a href="citas.jsp" class="btn btn-danger">Regresar</a>
+                <a href="../citas.jsp" class="btn btn-danger">Regresar</a>
             </form>
         </div>
     </div>

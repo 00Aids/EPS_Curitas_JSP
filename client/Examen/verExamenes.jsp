@@ -159,7 +159,7 @@
             </table>
 
             <div class="text-center">
-                <a href="citas.jsp" class="btn btn-primary">Regresar</a>
+                <a href="../citas.jsp" class="btn btn-primary">Regresar</a>
             </div>
         </div>
     </div>

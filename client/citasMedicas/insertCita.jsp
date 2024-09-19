@@ -23,7 +23,7 @@
         String cedula = (String) session.getAttribute("cedula");
         if (cedula == null) {
             // Si no hay cedula en la sesión, redirigir a la página principal (citas.jsp)
-            response.sendRedirect("citas.jsp");
+            response.sendRedirect("/Parcial_practico/client/citas.jsp");
             return;
         }
 
@@ -103,7 +103,7 @@
             }
         }
     %>
-    <a href="citas.jsp" class="btn btn-primary">Volver al inicio</a>
+    <a href="/Parcial_practico/client/citas.jsp" class="btn btn-primary">Volver al inicio</a>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

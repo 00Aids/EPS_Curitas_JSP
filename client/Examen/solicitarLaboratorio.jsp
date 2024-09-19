@@ -23,7 +23,7 @@
             String cedula = (String) session.getAttribute("cedula");
             if (cedula == null) {
                 // Si no hay cedula en la sesión, redirigir al login
-                response.sendRedirect("citas.jsp");
+                response.sendRedirect("../citas.jsp");
                 return;
             }
 
@@ -94,7 +94,7 @@
 
     <div class="text-center mt-4">
         <a href="verExamenes.jsp" class="btn btn-primary">Ver Exámenes Solicitados</a>
-        <a href="citas.jsp" class="btn btn-secondary">Regresar</a>
+        <a href="../citas.jsp" class="btn btn-secondary">Regresar</a>
     </div>
 </div>
 

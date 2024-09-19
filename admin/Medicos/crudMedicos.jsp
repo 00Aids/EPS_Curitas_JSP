@@ -64,7 +64,7 @@
 
         <div class="mt-4 text-center">
             <a href="mostrarMedicos.jsp" class="btn btn-secondary">Ver Medicos</a>
-            <a href="administrador.jsp" class="btn btn-secondary">Regresar</a>
+            <a href="../administrador.jsp" class="btn btn-secondary">Regresar</a>
         </div>
     </div>
 </div>

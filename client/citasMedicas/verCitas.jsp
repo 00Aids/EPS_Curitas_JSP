@@ -147,7 +147,7 @@
                     %>
                 </tbody>
             </table>
-            <a href="citas.jsp" class="btn btn-primary">Volver al inicio</a>
+            <a href="/Parcial_practico/client/citas.jsp" class="btn btn-primary">Volver al inicio</a>
         </div>
     </div>
 </div>
